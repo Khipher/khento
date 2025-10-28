@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Khipher',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
