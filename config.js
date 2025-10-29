@@ -17,23 +17,23 @@ const CONFIG = {
 	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to Sleep,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '58c52b844ab539b78cb853fa9f4bfd9b', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '42.498993',
+	defaultLongitude: '-83.367714',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'CS50',
+			icon: 'code',
+			link: 'https://cs50.harvard.edu/x/',
 		},
 		{
 			id: '3',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Portfolio',
+			icon: 'pencil',
+			link: 'https://khipher.art/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/@Khipher',
 		},
 	],
 
@@ -94,37 +94,37 @@ const CONFIG = {
 			id: '1',
 			name: 'Music',
 			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			link: 'https://music.youtube.com/',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Tumblr',
+			icon: 'type-outline',
+			link: 'https://www.tumblr.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Stoat',
+			icon: 'message-square-more',
+			link: 'https://stoat.chat/app',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Newgrounds',
+			icon: 'brush',
+			link: 'https://www.newgrounds.com/',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Google Messages',
+			icon: 'message-circle-heart',
+			link: 'https://messages.google.com/web/conversations',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Bluesky',
+			icon: 'birdhouse',
+			link: 'https://bsky.app/',
 		},
 	],
 
@@ -139,42 +139,42 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'raw',
+					link: 'https://music.youtube.com/playlist?list=PLQ0nQZE9RvIYSmOb_Jffb_NowD6UYoFSX&si=ZExkEYH9_iY5mmwn',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'nights',
+					link: 'https://music.youtube.com/playlist?list=PLQ0nQZE9RvIZGdyVkWeBdNi7EbvfU0jl3&si=B0rcvcqzqyunEv6A',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'unwind',
+					link: 'https://music.youtube.com/playlist?list=PLQ0nQZE9RvIaLy_xmgxk5m2Um7Sz5PvBq&si=r45hH2nLC8r8EE4Q',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Locked In',
+					link: 'https://music.youtube.com/playlist?list=PLQ0nQZE9RvIbsdUrqMaFMuvrkcYIMFyfi&si=XUTDpdCAuqk_CYI5',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'ghost',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Portfolio Site',
+					link: 'https://khipher.art/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Main YouTube',
+					link: 'https://www.youtube.com/@Khipher',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Main Newgrounds',
+					link: 'https://khipher.newgrounds.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Art Tumblr',
+					link: 'https://khiphering.tumblr.com/',
 				},
 			],
 		},
