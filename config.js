@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Notion',
+			icon: 'notepad-text',
+			link: 'https://www.notion.so/1566360c5d0745ec87f925fd4395c02a',
 		},
 		{
 			id: '4',
@@ -77,9 +77,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Portfolio',
-			icon: 'pencil',
-			link: 'https://khipher.art/',
+			name: 'Pinterest',
+			icon: 'pin',
+			link: 'https://www.pinterest.com/',
 		},
 		{
 			id: '6',
