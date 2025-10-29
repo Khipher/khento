@@ -20,7 +20,7 @@ const CONFIG = {
 	greetingMorning: 'Good morning',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep,',
+	greetingNight: 'why are you awake,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
